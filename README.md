@@ -2,7 +2,7 @@
 Documentation of PapeDashboard Version
 
 
-#### SideBar.vue
+### SideBar.vue
 /src/components/UIComponents/SidebarPlugin/SideBar.vue
 
 Aquí se cambia el título principal del Dashboard, la imágen del Logo, y varias cosas mas del menú lateral Izquierdo.
@@ -43,6 +43,56 @@ y aquí podemos encontrar entre otras cosas la clase que usa la imágen del logo
       }
 ```
 
+### sidebarLinks.js   
+/Users/alejandrodecastro/IngeneaProjects/sgi-web/src/sidebarLinks.js
+
+Este archivo maneja los componentes que se mostrarán en todo el Dashboard, es fundamental para mostrar u ocultar nuestros componentes.   
+
+```js
+export default [
+
+  {
+    name: 'Vehículos',
+    icon: 'ti-car',
+    path: '/admin/ingresoPatente'
+  }
+]
+```
+
+en el caso de querer agregar otro item, sensillamente se agrégará otro objeto al array, de esta manera: 
+
+```js
+export default [
+
+  {
+    name: 'Vehículos',
+    icon: 'ti-car',
+    path: '/admin/ingresoPatente'
+  },
+  {
+    name: 'Otro Menu',
+    icon: 'ti-user',
+    path: '/admin/otracomponente'
+  }
+]
+```
+
+### TopNavbar.vue
+/src/components/Dashboard/Layout/TopNavbar.vue
+
+Este componente tiene toda la barra superior, podriamos pensarlo como un Header.
+
+
+### ContentFooter.vue
+/src/components/Dashboard/Layout/ContentFooter.vue
+
+Este componente tiene todo lo relacionado con el Footer del Dashboard, alli se pueden cambiar los copyright y demas
+
+
+### UserMenu.vue
+/src/components/UIComponents/SidebarPlugin/UserMenu.vue
+
+Este componente tiene los datos del Menu del usuario logueado.
 
 
 
