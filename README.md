@@ -1,13 +1,14 @@
 # Vue Paper Dashboard v1
 Este repositorio sirve como documentacion sobre los principales componentes del Dashboard de VueJS.  
 
-Aqui se describiran los componentes principales, y que funcion tiene cada uno.
+Aqui se describiran los componentes principales, y que funcion tiene cada uno.    
 
 
 ### SideBar.vue
-/src/components/UIComponents/SidebarPlugin/SideBar.vue
-
-Aquí se cambia el título principal del Dashboard, la imágen del Logo, y varias cosas mas del menú lateral Izquierdo.
+```
+/src/components/UIComponents/SidebarPlugin/SideBar.vue    
+```   
+Aquí se cambia el título principal del Dashboard, la imágen del Logo, y varias cosas mas del menú lateral Izquierdo.   
  Todo esto en la seccion de las __PROPS__
 
 ```js
@@ -23,10 +24,11 @@ export default {
             },
 ```
 
-El estilo de este componente es ___sidebar-and-main-panel.scss__
-/src/assets/sass/paper/_sidebar-and-main-panel.scss
-
-y aquí podemos encontrar entre otras cosas la clase que usa la imágen del logo y el texto:   
+El estilo de este componente es ___sidebar-and-main-panel.scss__   
+```
+/src/assets/sass/paper/_sidebar-and-main-panel.scss   
+```
+Y aquí podemos encontrar entre otras cosas la clase que usa la imágen del logo y el texto:    
 ```css
     .logo-img{
         width: 34px;
@@ -46,8 +48,9 @@ y aquí podemos encontrar entre otras cosas la clase que usa la imágen del logo
 ```
 
 ### sidebarLinks.js   
+```
 /Users/alejandrodecastro/IngeneaProjects/sgi-web/src/sidebarLinks.js
-
+```
 Este archivo maneja los componentes que se mostrarán en todo el Dashboard, es fundamental para mostrar u ocultar nuestros componentes.   
 
 ```js
@@ -61,7 +64,7 @@ export default [
 ]
 ```
 
-en el caso de querer agregar otro item, sensillamente se agrégará otro objeto al array, de esta manera: 
+En el caso de querer agregar otro item, sensillamente se agrégará otro objeto al array, de esta manera:   
 
 ```js
 export default [
@@ -80,24 +83,28 @@ export default [
 ```
 
 ### TopNavbar.vue
+```
 /src/components/Dashboard/Layout/TopNavbar.vue
-
-Este componente tiene toda la barra superior, podriamos pensarlo como un Header.
+```
+Este componente tiene toda la barra superior, podriamos pensarlo como un Header.   
 
 
 ### ContentFooter.vue
+```
 /src/components/Dashboard/Layout/ContentFooter.vue
-
-Este componente tiene todo lo relacionado con el Footer del Dashboard, alli se pueden cambiar los copyright y demas
+```
+Este componente tiene todo lo relacionado con el Footer del Dashboard, alli se pueden cambiar los copyright y demas   
 
 
 ### UserMenu.vue
+```
 /src/components/UIComponents/SidebarPlugin/UserMenu.vue
-
-Este componente tiene los datos del Menu del usuario logueado.
+```
+Este componente tiene los datos del Menu del usuario logueado.   
 
 ### index.html
+```
 /Project-Name/index.html
-
-Aca se configura el titulo del proyecto, y el icono que tendra la App.
+```
+Aca se configura el titulo del proyecto, y el icono que tendra la App.   
 
