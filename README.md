@@ -1,4 +1,4 @@
-# Paper Dashboard 1 - VueJS1
+# Paper Dashboard 1 - Vue Paper Dashboard
 Este repositorio sirve como documentacion sobre los principales componentes del Dashboard de VueJS.  
 
 Aqui se describiran los componentes principales, y que funcion tiene cada uno.
