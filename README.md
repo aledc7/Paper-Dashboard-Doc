@@ -4,7 +4,7 @@ Este repositorio sirve como documentacion sobre los principales componentes del 
 Aqui se describiran los componentes principales, y que funcion tiene cada uno.    
 
 
-### SideBar.vue
+## SideBar.vue
 ```
 /src/components/UIComponents/SidebarPlugin/SideBar.vue    
 ```   
@@ -47,7 +47,7 @@ Y aquí podemos encontrar entre otras cosas la clase que usa la imágen del logo
       }
 ```
 
-### sidebarLinks.js   
+## sidebarLinks.js   
 ```
 /Users/alejandrodecastro/IngeneaProjects/sgi-web/src/sidebarLinks.js
 ```
@@ -82,27 +82,27 @@ export default [
 ]
 ```
 
-### TopNavbar.vue
+## TopNavbar.vue
 ```
 /src/components/Dashboard/Layout/TopNavbar.vue
 ```
 Este componente tiene toda la barra superior, podriamos pensarlo como un Header.   
 
 
-### ContentFooter.vue
+## ContentFooter.vue
 ```
 /src/components/Dashboard/Layout/ContentFooter.vue
 ```
 Este componente tiene todo lo relacionado con el Footer del Dashboard, alli se pueden cambiar los copyright y demas   
 
 
-### UserMenu.vue
+## UserMenu.vue
 ```
 /src/components/UIComponents/SidebarPlugin/UserMenu.vue
 ```
 Este componente tiene los datos del Menu del usuario logueado.   
 
-### index.html
+## index.html
 ```
 /Project-Name/index.html
 ```
