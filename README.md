@@ -1,5 +1,7 @@
 # Paper Dashboard 1 - VueJS1
-Documentation of PapeDashboard Version
+Este repositorio sirve como documentacion sobre los principales componentes del Dashboard de VueJS.  
+
+Aqui se describiran los componentes principales, y que funcion tiene cada uno.
 
 
 ### SideBar.vue
