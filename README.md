@@ -96,5 +96,8 @@ Este componente tiene todo lo relacionado con el Footer del Dashboard, alli se p
 
 Este componente tiene los datos del Menu del usuario logueado.
 
+### index.html
+/Project-Name/index.html
 
+Aca se configura el titulo del proyecto, y el icono que tendra la App.
 
