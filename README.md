@@ -1,4 +1,6 @@
 # Vue Paper Dashboard v1
+[<img src="https://github.com/aledc7/PHP-Certification/blob/master/aledc-logo.png?raw=true">](https://aledc.com)
+
 Este repositorio sirve como documentacion sobre los principales componentes del Dashboard de VueJS.  
 
 Aqui se describiran los componentes principales, y que funcion tiene cada uno.    
