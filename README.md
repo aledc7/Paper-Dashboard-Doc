@@ -10,8 +10,14 @@ Aqui se describiran los componentes principales, y que funcion tiene cada uno.
 ```
 /src/components/UIComponents/SidebarPlugin/SideBar.vue    
 ```   
-Aquí se cambia el título principal del Dashboard, la imágen del Logo, y varias cosas mas del menú lateral Izquierdo.   
- Todo esto en la seccion de las __PROPS__
+Se trata del __Menú Lateral izquierdo__, Aquí se cambia el título principal del Dashboard, la imágen del Logo, y varias cosas mas del menú.
+
+Todas las imágenes que usa el dashboard se encuentra en esta ruta:
+```js
+/static/img/
+```
+
+Todo esto en la seccion de las __PROPS__
 
 ```js
 export default {
@@ -26,7 +32,8 @@ export default {
             },
 ```
 
-El estilo de este componente es ___sidebar-and-main-panel.scss__   
+El estilo de este componente es ___sidebar-and-main-panel.scss__  
+Las clases que tocan el título y la imágen del logo del menu lateral izquierdo son: __logo-normal__ y __simple-text__
 ```
 /src/assets/sass/paper/_sidebar-and-main-panel.scss   
 ```
